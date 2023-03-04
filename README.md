@@ -3,9 +3,11 @@
 A very small 3D printer board for use on a direct drive toolhead. 
 It is designed to be used with Klipper firmware.
 Klipper has the awesome feature to be able to use multiple MCUs connected to the host over a (relatively) high latency connection. 
-This version uses USB-PD instead of CAN as that hardware is becoming commodity. 
-It runs at 20 V instead of 24 V, so fans are a little slower. 
-24 V is technically possible with USB-PD EPR AVS, the hardware is currently more difficult to source. 
+This version uses USB-PD instead of CAN. 
+Why? USB-C adoption makes premade, robust, and flexible cables capable of supplying power and data generally availabile as commodities.
+Also, for fun.
+It runs at 20 V instead of 24 V, so maximum fan speed is a little slower. 
+24 V is technically possible with USB-PD 3.1 EPR AVS, but the hardware is not commonplace. 
 
 ![Image of Board](doc/image.png)
 
